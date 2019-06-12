@@ -2,7 +2,7 @@ import * as path from 'path'
 import Config from 'webpack-chain'
 
 import frontmatter from 'remark-frontmatter'
-import remarkDocz from 'remark-docz'
+import remarkDocz from '@daiyam/remark-docz'
 import rehypeDocz from 'rehype-docz'
 import slug from 'rehype-slug'
 

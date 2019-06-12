@@ -43,7 +43,10 @@ export interface Paths {
   db: string
 }
 
-export const templates = path.join(resolve.sync('docz-core'), '../templates')
+export const templates = path.join(
+  resolve.sync('@daiyam/docz-core'),
+  '../templates'
+)
 
 export const packageJson = resolveApp('package.json')
 export const servedPath = (base: string) => ensureSlash(base, true)
